@@ -29,12 +29,12 @@ function setGuess(guessValueAsString) {
 function guess() {
 
   if (theirGuess < randomNumber) {
-  alert("Too Low");
+  document.getElementById("demo").innerHTML=("Too Low");
   }
   else if (theirGuess > randomNumber) {
-  alert("Too Hi");
+  document.getElementById("demo").innerHTML=("Too Hi");
   }
   else {
-  alert("You Win!");
+  document.getElementById("demo").innerHTML=("You Win!");
   };
 };
