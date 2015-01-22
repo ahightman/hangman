@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300italic' rel='stylesheet' type='text/css'>
+    <title>Converter</title>
+  </head>
+
+  <body>
+
+  <div class="container">
+    <h1>Convert It!</h1>
+
+    <input type="text" onchange="setX(this.value)">
+
+    <button onclick="cupsToQuarts()">Cups to Quarts</button>
+    <button onclick="quartsToCups()">Quarts to Cups</button>
+    <br>
+
+    <input type="text" onchange="setX(this.value)">
+
+
+    <button onclick="metersToYards()">Meters to Yards</button>
+    <button onclick="yardsToMeters()">Yards to Meters</button>
+    <br>
+
+    <input type="text" onchange="setX(this.value)">
+
+    <button onclick="fahrenheitToCelcius()">Fahrenheit to Celcius</button>
+    <button onclick="celciusToFahrenheit()">Celcius to Fahrenheit</button>
+    <br>
+
+
+    <script src="js/converter.js"></script>
+
+  </body>
+</html>

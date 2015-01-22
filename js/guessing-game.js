@@ -18,3 +18,23 @@
 // guess()
 //
 // Feel free to rename the guessValueAsString parameter
+
+var randomNumber = Math.floor(Math.random() * 10) + 1;
+var theirGuess = 0;
+
+function setGuess(guessValueAsString) {
+  theirGuess = Number(guessValueAsString);
+}
+
+function guess() {
+
+  if (theirGuess < randomNumber) {
+  alert("Too Low");
+  }
+  else if (theirGuess > randomNumber) {
+  alert("Too Hi");
+  }
+  else {
+  alert("You Win!");
+  };
+};
