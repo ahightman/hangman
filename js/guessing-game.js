@@ -38,5 +38,3 @@ function guess() {
   alert("You Win!");
   };
 };
-
-//end
