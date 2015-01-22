@@ -23,7 +23,7 @@ function yardsToMeters() {
 }
 //Fahrenheit to Celcius//
 function fahrenheitToCelcius() {
-  y = (x * 33.8);
+  y = ((x - 32) * .555555556);
   alert(x + " degrees Fahrenheit equals " + y + " degrees Celcius!");
 }
 //Celcius to Fahrenheit//

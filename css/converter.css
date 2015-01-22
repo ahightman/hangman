@@ -1,43 +1,80 @@
-* {
-  border: 0;
-  margin: 0;
-}
-
+/* Reasonable defaults */
 body {
-  background-color: #ecf0f1;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+    letter-spacing: .2em;
+    line-height: 2.2em;
+    /*padding: 2em;*/
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+h1 { font-size: 3em; margin-bottom: 0.3em }
+h2 { font-size: 1.5em; margin: .75em 0 }
+h3 { font-size: 1.17em; margin: .83em 0 }
+h5 { font-size: .83em; margin: 1.5em 0 }
+h6 { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6 {
+  font-weight: bolder
 }
 
-.wrapper {
-  max-width: 800px;
-  margin: 0 5em;
-}
+/*p {
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}*/
 
-.wrapper div {
-  margin: .4em 0;
-  position: relative;
-}
+/*a {
+  color: #2694f5;
+  text-decoration: none;
+}*/
+
 
 .container {
-  background-color: #1abc9c;
+  background-color: #3498DB;
   padding: 5%;
   border-radius: .8em;
-  max-width: 240px;
+  max-width: 300px;
   position: relative;
+  margin: auto;
+  margin-top: 3em;
 }
 
 input, textarea, select {
-  padding:10px;
+  /*padding:10px;*/
   font-size:20px;
-  text-align:left;
-  border-width:0px;
+  /*text-align:left;*/
+  /*border-width:0px;*/
   border-radius:4px;
-  color:#9c59b6;
+  color: black;
   }
 
+  input {
+    width: 250px;
+    overflow: hidden;
+    padding: 0.5em;
+    margin: .5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    border: 1px solid #999;
+  }
+
+  button, input, select, textarea {
+    font-size: inherit;
+    outline: none;
+  }
+
+  button {
+    padding: .6em 1em;
+    background: #2C3E50;
+    color: white;
+    border: 0;
+    margin: .2em;
+    border: 1px solid #22313F;
+    border-radius: .5em;
+    }
+
+
   select {
-      color:#DCC6E0;
+      color:#2c3e50;
     }
 
   textarea {
@@ -47,14 +84,10 @@ input, textarea, select {
 input:focus { outline:none; }
 
 
-input::-webkit-input-placeholder {
-  color: #DCC6E0;
+/*input::-webkit-input-placeholder {
+  color: #2c3e50;
 }
 
 textarea::-webkit-input-placeholder {
-  color: #DCC6E0;
-}
-
-.terms {
-  font-size: 70%;
-}
+  color: #2c3e50;
+}*/
