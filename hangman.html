@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/hangman.css">
+      <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+        <title>|o| Drowning Man</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>  Drowning Man  </h1>
+
+      <h2 class="random-word"></h2>
+      <h2 class="remaining-guesses"></h2>
+
+
+      <input type="text" onchange="setGuess(this.value)" "maxlength="1" id="text-input"><button onclick="checkGuess()">Guess!</button>
+
+      <h2 class="incorrect-letters"></h2>
+      <img src="/Users/ahightman/Desktop/Dev/Projects/wk2/img/drowningstickman.jpg">
+    </div>
+
+
+
+    <script src="js/hangman.js"></script>
+  </body>
+</html>

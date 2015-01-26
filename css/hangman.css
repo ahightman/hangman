@@ -1,0 +1,65 @@
+/* Reasonable defaults */
+body {
+      letter-spacing: .5em;
+      line-height: 2.2em;
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      margin-top: 3em;
+   }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  margin: 1em;
+}
+
+.random-word {
+  font-size: 3em;
+}
+
+
+.container {
+  padding: 5%;
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  margin-top: 3em;
+  text-align: center;
+
+}
+
+  input {
+    width: 50px;
+    overflow: hidden;
+    padding: 0.5em;
+    margin-top: 1em;
+    border: 1px solid #999;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  button, input {
+    font-size: inherit;
+    outline: none;
+  }
+
+  button {
+    padding: .5em .7em;
+    background: #2C3E50;
+    color: white;
+    border: 0;
+    margin-left: 0.1em;
+    border: 1px solid #22313F;
+    border-radius: .1em;
+    }
+
+  input:focus { outline:none; }
